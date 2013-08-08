@@ -34,7 +34,9 @@ TODO
 
 ## Team
 
-jQuery TopBar was created by Audrey Roy, with help from these [contributors](https://github.com/audreyr/topbar/graphs/contributors).
+* jQuery TopBar was created by Audrey Roy, with help from these [contributors](https://github.com/audreyr/topbar/graphs/contributors).
 
-Credits:
-* [Zeno Rocha](http://zenorocha.com) and [Addy Osmani](http://addyosmani.com) for creating [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate) * [Audrey Roy](http://www.audreymroy.com) for creating [cookiecutter-jquery](https://github.com/audreyr/cookiecutter-jquery) from jquery-boilerplate.
+### Credits
+
+* [Zeno Rocha](http://zenorocha.com) and [Addy Osmani](http://addyosmani.com) for creating [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate).
+* [Audrey Roy](http://www.audreymroy.com) for creating [cookiecutter-jquery](https://github.com/audreyr/cookiecutter-jquery).
