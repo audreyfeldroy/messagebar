@@ -2,6 +2,14 @@
 
 A top bar for notifications. Dismiss it by clicking the x.
 
+* Free software: [MIT License](http://audreyr.mit-license.org/)
+* History: [HISTORY.md](https://github.com/audreyr/topbar/blob/master/HISTORY.md)
+* How to contribute: [CONTRIBUTING.md](https://github.com/audreyr/topbar/blob/master/CONTRIBUTING.md)
+
+## Demo
+
+TODO
+
 ## Usage
 
 1. Include jQuery:
@@ -28,16 +36,5 @@ A top bar for notifications. Dismiss it by clicking the x.
 
 jQuery TopBar was created by Audrey Roy, with help from these [contributors](https://github.com/audreyr/topbar/graphs/contributors).
 
-Credit goes to [Zeno Rocha](http://zenorocha.com) and [Addy Osmani](http://addyosmani.com) for creating [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate) and to [Audrey Roy](http://www.audreymroy.com) for creating [cookiecutter-jquery](https://github.com/audreyr/cookiecutter-jquery) from jquery-boilerplate.
-
-## Contributing
-
-Check [CONTRIBUTING.md](https://github.com/audreyr/topbar/blob/master/CONTRIBUTING.md)
-
-## History
-
-Check [HISTORY.md](https://github.com/audreyr/topbar/blob/master/HISTORY.md)
-
-## License
-
-[MIT License](http://audreyr.mit-license.org/)
+Credits:
+* [Zeno Rocha](http://zenorocha.com) and [Addy Osmani](http://addyosmani.com) for creating [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate) * [Audrey Roy](http://www.audreymroy.com) for creating [cookiecutter-jquery](https://github.com/audreyr/cookiecutter-jquery) from jquery-boilerplate.
