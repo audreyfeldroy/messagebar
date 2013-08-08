@@ -1,0 +1,10 @@
+/* Don't put this file in your project. It's just a quick and dirty redefinition of Bootstrap styles for convenience. */
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
