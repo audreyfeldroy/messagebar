@@ -22,7 +22,7 @@
 		// Create the defaults once
 		var topBar = "topBar",
 				defaults = {
-				propertyName: "value"
+				slide: false
 		};
 
 		// The actual plugin constructor
@@ -47,9 +47,12 @@
 						// you can add more functions like the one below and
 						// call them like so: this.yourOtherFunction(this.element, this.settings).
 						console.log("xD");
+            $(this.element).on("click", this.close);
 				},
-				yourOtherFunction: function () {
-						// some logic
+				close: function () {
+						// Close the notification
+            var $parent = $(this);
+            $parent.remove();
 				}
 		};
 

@@ -7,7 +7,7 @@
 	</head>
 	<body>
 
-    <div class="topbar">
+    <div class="topbar" id="mynotification">
       <div class="container">
         This is a notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
@@ -18,8 +18,8 @@
 		<script src="../dist/jquery.topbar.js"></script>
 		<script>
 			$(function() {
-				$(".topbar").({
-					propertyName: "a custom value"
+				$("#mynotification").topBar({
+					slide: false
 				});
 			});
 		</script>
