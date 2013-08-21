@@ -39,12 +39,15 @@
 						// you can add more functions like the one below and
 						// call them like so: this.yourOtherFunction(this.element, this.settings).
 						console.log("xD");
+            $(this).addClass("active");
             $(this.element).on("click", this.close);
 				},
 				close: function () {
 						// Close the notification
-            var $parent = $(this);
-            $parent.remove();
+            $(this).removeClass("active");
+            // var $parent = $(this);
+            // $parent.animate({"bottom": "0"});
+            // $parent.remove();
 				}
 		};
 

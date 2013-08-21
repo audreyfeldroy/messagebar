@@ -11,6 +11,26 @@
   padding: 10px 0;
   background-color: #5BC0DE;
   border-bottom: 1px solid #46B8DA;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition:-webkit-transform 0.25s linear;
+  -moz-transition:-moz-transform 0.25s linear;
+  -o-transition:-o-transform 0.25s linear;
+  transition:transform 0.25s linear;
+/*  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;*/
+}
+
+.topbar.active {
+  -webkit-transform: translate3d(0,129px,0)
+  -moz-transform: translate3d(0,129px,0)
+  -o-transform: translate3d(0,129px,0)
+  transform: translate3d(0,129px,0)
 }
 
 /**
