@@ -24,7 +24,7 @@ font to match your site.
 2. Include plugin's code:
 
 	```html
-  <link href="../dist/jquery.topbar.min.css" rel="stylesheet">
+  <link href="dist/jquery.topbar.min.css" rel="stylesheet">
 	<script src="dist/jquery.topbar.min.js"></script>
 	```
 
