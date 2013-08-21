@@ -8,7 +8,10 @@ A top bar for notifications. Dismiss it by clicking the x.
 
 ## Demo
 
-TODO
+This is it: http://audreyr.github.io/topbar/demo/
+
+Note: The default TopBar is plain. It's your job to change the CSS color and
+font to match your site.
 
 ## Usage
 
