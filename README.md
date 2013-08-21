@@ -8,10 +8,12 @@ A top bar for notifications. Dismiss it by clicking the x.
 
 ## Demo
 
-This is it: http://audreyr.github.io/topbar/demo/
+Here are several TopBars in action: http://audreyr.github.io/topbar/demo/
 
-Note: The default TopBar is plain. It's your job to change the CSS color and
-font to match your site.
+* They correspond to Bootstrap's **default**, **primary**, **success**, **info**,
+  **warning**, and **danger** styles.
+* The default TopBars are purposely plain. It's your job to change the CSS
+  colors and font to match your site, of course.
 
 ## Usage
 
