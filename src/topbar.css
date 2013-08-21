@@ -6,11 +6,34 @@
 
 .topbar {
   font-family: Helvetica,Arial,sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
   padding: 10px 0;
+}
+
+.topbar-default {
+  background-color: #999;
+}
+
+.topbar-primary {
+  background-color: #428BCA;
+}
+
+.topbar-success {
+  background-color: #5CB85C;
+}
+
+.topbar-info {
   background-color: #5BC0DE;
-  border-bottom: 1px solid #46B8DA;
+}
+
+.topbar-warning {
+  background-color: #F0AD4E;
+}
+
+.topbar-danger {
+  background-color: #D9534F;
 }
 
 /**
