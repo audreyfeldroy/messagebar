@@ -21,14 +21,26 @@ TODO
 2. Include plugin's code:
 
 	```html
+  <link href="../dist/jquery.topbar.min.css" rel="stylesheet">
 	<script src="dist/jquery.topbar.min.js"></script>
 	```
 
-3. Call the plugin:
+3. Put your plugin HTML on your web page:
+
+  ```html
+  <div class="topbar" id="mynotification">
+    <div class="container">
+      This is a notification. You can click it away if you want.
+      <button type="button" class="close" data-dismiss="message">&times;</button>
+    </div>
+  </div>
+  ```
+
+4. Call the plugin:
 
 	```javascript
-	$("#element").({
-		propertyName: "a custom value"
+	$("#mynotification").topBar({
+		slide: false
 	});
 	```
 
