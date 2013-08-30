@@ -1,4 +1,4 @@
-# jQuery TopBar [![Build Status](https://secure.travis-ci.org/audreyr/topbar.png?branch=master)](https://travis-ci.org/audreyr/topbar) [![devDependencies](https://david-dm.org/audreyr/topbar.png)](https://david-dm.org/audreyr/topbar#info=devDependencies)
+# jQuery TopBar [![Build Status](https://secure.travis-ci.org/audreyr/topbar.png?branch=gh-pages)](https://travis-ci.org/audreyr/topbar) [![devDependencies](https://david-dm.org/audreyr/topbar.png)](https://david-dm.org/audreyr/topbar#info=devDependencies)
 
 A top bar for notifications. Dismiss it by clicking the x.
 
