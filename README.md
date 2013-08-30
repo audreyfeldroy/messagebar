@@ -6,9 +6,9 @@ A top bar for notifications. Dismiss it by clicking the x.
 * History: [HISTORY.md](https://github.com/audreyr/topbar/blob/master/HISTORY.md)
 * How to contribute: [CONTRIBUTING.md](https://github.com/audreyr/topbar/blob/master/CONTRIBUTING.md)
 
-## Demo
+![Screenshot of TopBar](topbar-screenshot.png)
 
-Here are several TopBars in action: http://audreyr.github.io/topbar/demo/
+The above is a screenshot of TopBar being used on https://www.djangopackages.com. To see a live demo of several TopBars in action, see http://audreyr.github.io/topbar/demo/.
 
 * They correspond to Bootstrap's **default**, **primary**, **success**, **info**,
   **warning**, and **danger** styles.
