@@ -4,6 +4,8 @@ A top bar for notifications. Dismiss it by clicking the x.
 
 * Free software: MIT License (http://audreyr.mit-license.org/)
 
+## Screenshot and Demo
+
 Here is a screenshot of TopBar being used on https://www.djangopackages.com:
 
 ![Screenshot of TopBar](topbar-screenshot.png)
@@ -48,3 +50,5 @@ To see a live demo of several TopBars in action, see http://audreyr.github.io/to
 		slide: false
 	});
 	```
+
+  (Note: `slide: true` hasn't been implemented yet. See https://github.com/audreyr/topbar/issues/1 for more info. If you feel like implementing that feature, go for it and send a pull request!)
