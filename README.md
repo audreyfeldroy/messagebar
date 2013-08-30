@@ -2,13 +2,13 @@
 
 A top bar for notifications. Dismiss it by clicking the x.
 
-* Free software: [MIT License](http://audreyr.mit-license.org/)
-* History: [HISTORY.md](https://github.com/audreyr/topbar/blob/master/HISTORY.md)
-* How to contribute: [CONTRIBUTING.md](https://github.com/audreyr/topbar/blob/master/CONTRIBUTING.md)
+* Free software: MIT License (http://audreyr.mit-license.org/)
+
+Here is a screenshot of TopBar being used on https://www.djangopackages.com:
 
 ![Screenshot of TopBar](topbar-screenshot.png)
 
-The above is a screenshot of TopBar being used on https://www.djangopackages.com. To see a live demo of several TopBars in action, see http://audreyr.github.io/topbar/demo/.
+To see a live demo of several TopBars in action, see http://audreyr.github.io/topbar/demo/.
 
 * They correspond to Bootstrap's **default**, **primary**, **success**, **info**,
   **warning**, and **danger** styles.
@@ -20,7 +20,7 @@ The above is a screenshot of TopBar being used on https://www.djangopackages.com
 1. Include jQuery:
 
 	```html
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	```
 
 2. Include plugin's code:
@@ -33,7 +33,7 @@ The above is a screenshot of TopBar being used on https://www.djangopackages.com
 3. Put your plugin HTML on your web page:
 
   ```html
-  <div class="topbar" id="mynotification">
+  <div class="topbar">
       <div class="container">
         This is a notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
@@ -44,16 +44,7 @@ The above is a screenshot of TopBar being used on https://www.djangopackages.com
 4. Call the plugin:
 
 	```javascript
-	$("#mynotification").topBar({
+	$(".topbar").topBar({
 		slide: false
 	});
 	```
-
-## Team
-
-* jQuery TopBar was created by Audrey Roy, with help from these [contributors](https://github.com/audreyr/topbar/graphs/contributors).
-
-### Credits
-
-* [Zeno Rocha](http://zenorocha.com) and [Addy Osmani](http://addyosmani.com) for creating [jquery-boilerplate](https://github.com/jquery-boilerplate/jquery-boilerplate).
-* [Audrey Roy](http://www.audreymroy.com) for creating [cookiecutter-jquery](https://github.com/audreyr/cookiecutter-jquery).
