@@ -34,10 +34,10 @@ Here are several TopBars in action: http://audreyr.github.io/topbar/demo/
 
   ```html
   <div class="topbar" id="mynotification">
-    <div class="container">
-      This is a notification. You can click it away if you want.
-      <button type="button" class="close" data-dismiss="message">&times;</button>
-    </div>
+      <div class="container">
+        This is a notification. You can click it away if you want.
+        <button type="button" class="close" data-dismiss="message">&times;</button>
+      </div>
   </div>
   ```
 
