@@ -28,16 +28,16 @@ To run the demo locally:
 
 1. Include jQuery:
 
-	```html
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	```
+  ```html
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  ```
 
 2. Include plugin's code:
 
-	```html
+  ```html
   <link href="dist/jquery.topbar.min.css" rel="stylesheet">
-	<script src="dist/jquery.topbar.min.js"></script>
-	```
+  <script src="dist/jquery.topbar.min.js"></script>
+  ```
 
 3. Put your plugin HTML on your web page:
 
@@ -52,10 +52,10 @@ To run the demo locally:
 
 4. Call the plugin:
 
-	```javascript
-	$(".topbar").topBar({
-		slide: false
-	});
-	```
+  ```javascript
+  $(".topbar").topBar({
+    slide: false
+  });
+  ```
 
   (Note: `slide: true` hasn't been implemented yet. See https://github.com/audreyr/topbar/issues/1 for more info. If you feel like implementing that feature, go for it and send a pull request!)

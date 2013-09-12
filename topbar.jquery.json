@@ -1,34 +1,34 @@
 {
-	"name": "topbar",
-	"title": "jQuery TopBar",
-	"description": "A top bar for notifications. Dismiss it by clicking the x.",
-	"keywords": [
-		"topbar"
-	],
-	"version": "0.1.0",
-	"author": {
-		"name": "Audrey Roy",
-		"email": "audreyr@gmail.com",
-		"url": "https://github.com/audreyr"
-	},
-	"maintainers": [
-		{
-			"name": "Audrey Roy",
-			"email": "audreyr@gmail.com",
-			"url": "https://github.com/audreyr"
-		}
-	],
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://audreyr.mit-license.org/"
-		}
-	],
-	"bugs": "https://github.com/audreyr/topbar/issues",
-	"homepage": "http://github.com/audreyr/topbar",
-	"docs": "https://github.com/audreyr/topbar#readme",
-	"download": "https://github.com/audreyr/topbar/archive/master.zip",
-	"dependencies": {
-		"jquery": ">=1.4"
-	}
+  "name": "topbar",
+  "title": "jQuery TopBar",
+  "description": "A top bar for notifications. Dismiss it by clicking the x.",
+  "keywords": [
+    "topbar"
+  ],
+  "version": "0.1.0",
+  "author": {
+    "name": "Audrey Roy",
+    "email": "audreyr@gmail.com",
+    "url": "https://github.com/audreyr"
+  },
+  "maintainers": [
+    {
+      "name": "Audrey Roy",
+      "email": "audreyr@gmail.com",
+      "url": "https://github.com/audreyr"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://audreyr.mit-license.org/"
+    }
+  ],
+  "bugs": "https://github.com/audreyr/topbar/issues",
+  "homepage": "http://github.com/audreyr/topbar",
+  "docs": "https://github.com/audreyr/topbar#readme",
+  "download": "https://github.com/audreyr/topbar/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
 }
