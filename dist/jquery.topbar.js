@@ -59,11 +59,16 @@
   // A really lightweight plugin wrapper around the constructor,
   // preventing against multiple instantiations
   $.fn[ topBar ] = function ( options ) {
-    return this.each(function() {
+    console.log("Start of wrapper. this is ", this);
+    // console.log("options is ", options);
+    var ret_val = this.each(function() {
+      console.log("Inside wrapper each. this is ", this);
       if ( !$.data( this, "plugin_" + topBar ) ) {
         $.data( this, "plugin_" + topBar, new TopBar( this, options ) );
       }
     });
+    console.log("ret_val is ", ret_val);
+    return ret_val;
   };
 
 })( jQuery, window, document );
