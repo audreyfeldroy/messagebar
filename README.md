@@ -17,6 +17,13 @@ To see a live demo of several TopBars in action, see http://audreyr.github.io/to
 * The default TopBars are purposely plain. It's your job to change the CSS
   colors and font to match your site, of course.
 
+To run the demo locally:
+
+  ```bash
+  npm install
+  grunt
+  ```
+
 ## Usage
 
 1. Include jQuery:

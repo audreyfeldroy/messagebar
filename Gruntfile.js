@@ -66,6 +66,17 @@ module.exports = function(grunt) {
           'dist/jquery.topbar.min.css': ['src/topbar.css']
         }
       }
+    },
+
+    // Start local server and open demo
+    connect: {
+      server: {
+        options: {
+          keepalive: true,
+          open: "http://127.0.0.1:8080/demo/index.html",
+          port: 8080
+        }
+      }
     }
 
 	});
@@ -75,8 +86,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-coffee");
   grunt.loadNpmTasks("grunt-contrib-cssmin");
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
-	grunt.registerTask("default", ["jshint", "concat", "uglify", "cssmin"]);
+	grunt.registerTask("default", ["jshint", "concat", "uglify", "cssmin", "connect"]);
 	grunt.registerTask("travis", ["jshint"]);
 
 };
