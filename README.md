@@ -59,3 +59,37 @@ To run the demo locally:
   ```
 
   (Note: `slide: true` hasn't been implemented yet. See https://github.com/audreyr/topbar/issues/1 for more info. If you feel like implementing that feature, go for it and send a pull request!)
+
+### Setting Up jQuery TopBar with Django Messages
+  
+jQuery TopBar can easily be connected to Django's messages framework, allowing
+your web application to display notifications as top bars that can be clicked
+away. 
+
+This is similar to the notification bars used in many popular web applications,
+such as StackOverflow.
+
+1. Add this to your base template:
+
+  ```html
+  {% for message in messages %}
+    <div class="topbar topbar-default{% if message.tags %} {{ message.tags }}{% endif %}" id="message_{{ forloop.counter }}">
+      <div class="container">
+        {{ message }}
+        <button type="button" class="close" data-dismiss="message">&times;</button>
+      </div>
+    </div>
+  {% endfor %}
+  ```
+
+2. Change the names of the classes in topbar.css to match Django's built-in
+message levels of:
+
+  * debug
+  * info
+  * success
+  * warning
+  * error
+
+See https://docs.djangoproject.com/en/dev/ref/contrib/messages/#message-tags
+for more info.
