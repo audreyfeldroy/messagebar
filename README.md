@@ -1,6 +1,6 @@
 # jQuery MessageBar [![Build Status](https://secure.travis-ci.org/audreyr/messagebar.png?branch=gh-pages)](https://travis-ci.org/audreyr/messagebar) [![devDependencies](https://david-dm.org/audreyr/messagebar.png)](https://david-dm.org/audreyr/messagebar#info=devDependencies)
 
-A top bar for notifications. Dismiss it by clicking the x.
+A top bar for notification messages. Dismiss it by clicking the x. Works with Django, but that's optional.
 
 * Free software: MIT License (http://audreyr.mit-license.org/)
 
