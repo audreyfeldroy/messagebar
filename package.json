@@ -1,14 +1,14 @@
 {
   "name": "messagebar",
-  "title": "jQuery MessageBar",
-  "description": "A top bar for notifications. Dismiss it by clicking the x.",
+  "title": "MessageBar",
+  "description": "A top bar for notification messages. Dismiss it by clicking the x. Works with Django, but that's optional.",
   "author": "Audrey Roy",
   "repository": {
     "type" : "git",
     "url" : "http://github.com/audreyr/messagebar.git"
   },
   "homepage": "https://github.com/audreyr/messagebar/",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-cli": "~0.1.7",

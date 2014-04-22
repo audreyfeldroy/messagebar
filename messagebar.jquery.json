@@ -1,11 +1,11 @@
 {
   "name": "messagebar",
   "title": "jQuery MessageBar",
-  "description": "A top bar for notifications. Dismiss it by clicking the x.",
+  "description": "A top bar for notification messages. Dismiss it by clicking the x. Works with Django, but that's optional.",
   "keywords": [
     "messagebar"
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Audrey Roy",
     "email": "audreyr@gmail.com",
