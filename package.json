@@ -1,13 +1,13 @@
 {
-  "name": "topbar",
-  "title": "jQuery TopBar",
+  "name": "messagebar",
+  "title": "jQuery MessageBar",
   "description": "A top bar for notifications. Dismiss it by clicking the x.",
   "author": "Audrey Roy",
   "repository": {
     "type" : "git",
-    "url" : "http://github.com/audreyr/topbar.git"
+    "url" : "http://github.com/audreyr/messagebar.git"
   },
-  "homepage": "https://github.com/audreyr/topbar/",
+  "homepage": "https://github.com/audreyr/messagebar/",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.1",

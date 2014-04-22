@@ -1,10 +1,10 @@
-/*! topbar.css */
+/*! messagebar.css */
 
 /**
- * Topbar styles.
+ * MessageBar styles.
  */
 
-.topbar {
+.messagebar {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -13,32 +13,32 @@
   padding: 10px 0;
 }
 
-.topbar-default {
+.messagebar-default {
   background-color: #c4c4c4;
   border-bottom: 1px solid #999;
 }
 
-.topbar-primary {
+.messagebar-primary {
   background-color: #84b3dc;
   border-bottom: 1px solid #428BCA;
 }
 
-.topbar-success {
+.messagebar-success {
   background-color: #a3d7a3;
   border-bottom: 1px solid #5CB85C;
 }
 
-.topbar-info {
+.messagebar-info {
   background-color: #9ed9eb;
   border-bottom: 1px solid #5BC0DE;
 }
 
-.topbar-warning {
+.messagebar-warning {
   background-color: #f6cd93;
   border-bottom: 1px solid #F0AD4E;
 }
 
-.topbar-danger {
+.messagebar-danger {
   background-color: #e89996;
   border-bottom: 1px solid #D9534F;
 }

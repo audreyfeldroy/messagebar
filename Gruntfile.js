@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
 
     // Import package manifest
-    pkg: grunt.file.readJSON("topbar.jquery.json"),
+    pkg: grunt.file.readJSON("messagebar.jquery.json"),
 
     // Banner definitions
     meta: {
@@ -20,8 +20,8 @@ module.exports = function(grunt) {
     // Concat definitions
     concat: {
       dist: {
-        src: ["src/jquery.topbar.js"],
-        dest: "dist/jquery.topbar.js"
+        src: ["src/jquery.messagebar.js"],
+        dest: "dist/jquery.messagebar.js"
       },
       options: {
         banner: "<%= meta.banner %>"
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
     // Lint definitions
     jshint: {
-      files: ["src/jquery.topbar.js"],
+      files: ["src/jquery.messagebar.js"],
       options: {
         jshintrc: ".jshintrc"
       }
@@ -39,8 +39,8 @@ module.exports = function(grunt) {
     // Minify definitions
     uglify: {
       my_target: {
-        src: ["dist/jquery.topbar.js"],
-        dest: "dist/jquery.topbar.min.js"
+        src: ["dist/jquery.messagebar.js"],
+        dest: "dist/jquery.messagebar.min.js"
       },
       options: {
         banner: "<%= meta.banner %>"
@@ -51,10 +51,10 @@ module.exports = function(grunt) {
     cssmin: {
       add_banner: {
         options: {
-          banner: '/* topbar by audreyr ~ https://github.com/audreyr/topbar */'
+          banner: '/* messagebar by audreyr ~ https://github.com/audreyr/messagebar */'
         },
         files: {
-          'dist/jquery.topbar.min.css': ['src/topbar.css']
+          'dist/jquery.messagebar.min.css': ['src/messagebar.css']
         }
       }
     },

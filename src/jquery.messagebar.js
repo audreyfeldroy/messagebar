@@ -12,13 +12,13 @@
   // minified (especially when both are regularly referenced in your plugin).
 
   // Create the defaults once
-  var topBar = "topBar",
+  var messageBar = "messageBar",
     defaults = {
       slide: false
     };
 
   // The actual plugin constructor
-  function TopBar ( element, options ) {
+  function MessageBar ( element, options ) {
     this.element = element;
     // jQuery has an extend method which merges the contents of two or
     // more objects, storing the result in the first object. The first object
@@ -26,11 +26,11 @@
     // future instances of the plugin
     this.settings = $.extend( {}, defaults, options );
     this._defaults = defaults;
-    this._name = topBar;
+    this._name = messageBar;
     this.init();
   }
 
-  TopBar.prototype = {
+  MessageBar.prototype = {
     init: function () {
       // Place initialization logic here
       // You already have access to the DOM element and
@@ -50,10 +50,10 @@
 
   // A really lightweight plugin wrapper around the constructor,
   // preventing against multiple instantiations
-  $.fn[ topBar ] = function ( options ) {
+  $.fn[ messageBar ] = function ( options ) {
     return this.each(function() {
-      if ( !$.data( this, "plugin_" + topBar ) ) {
-        $.data( this, "plugin_" + topBar, new TopBar( this, options ) );
+      if ( !$.data( this, "plugin_" + messageBar ) ) {
+        $.data( this, "plugin_" + messageBar, new MessageBar( this, options ) );
       }
     });
   };

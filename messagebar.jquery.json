@@ -1,9 +1,9 @@
 {
-  "name": "topbar",
-  "title": "jQuery TopBar",
+  "name": "messagebar",
+  "title": "jQuery MessageBar",
   "description": "A top bar for notifications. Dismiss it by clicking the x.",
   "keywords": [
-    "topbar"
+    "messagebar"
   ],
   "version": "0.1.0",
   "author": {
@@ -24,10 +24,10 @@
       "url": "http://audreyr.mit-license.org/"
     }
   ],
-  "bugs": "https://github.com/audreyr/topbar/issues",
-  "homepage": "http://github.com/audreyr/topbar",
-  "docs": "https://github.com/audreyr/topbar#readme",
-  "download": "https://github.com/audreyr/topbar/archive/master.zip",
+  "bugs": "https://github.com/audreyr/messagebar/issues",
+  "homepage": "http://github.com/audreyr/messagebar",
+  "docs": "https://github.com/audreyr/messagebar#readme",
+  "download": "https://github.com/audreyr/messagebar/archive/master.zip",
   "dependencies": {
     "jquery": ">=1.4"
   }

@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>jQuery TopBar</title>
+    <title>jQuery MessageBar</title>
     <link href="pretend-this-is-bootstrap.css" rel="stylesheet">
-    <link href="../dist/jquery.topbar.min.css" rel="stylesheet">
+    <link href="../dist/jquery.messagebar.min.css" rel="stylesheet">
   </head>
   <body>
 
-    <div class="topbar topbar-default" id="mynotification">
+    <div class="messagebar messagebar-default" id="mynotification">
       <div class="container">
         This is a default notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
-    <div class="topbar topbar-primary" id="mynotification2">
+    <div class="messagebar messagebar-primary" id="mynotification2">
       <div class="container">
         This is a primary notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
-    <div class="topbar topbar-success" id="mynotification3">
+    <div class="messagebar messagebar-success" id="mynotification3">
       <div class="container">
         This is a success notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
-    <div class="topbar topbar-info" id="mynotification4">
+    <div class="messagebar messagebar-info" id="mynotification4">
       <div class="container">
         This is an info notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
-    <div class="topbar topbar-warning" id="mynotification5">
+    <div class="messagebar messagebar-warning" id="mynotification5">
       <div class="container">
         This is a warning notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
-    <div class="topbar topbar-danger" id="mynotification6">
+    <div class="messagebar messagebar-danger" id="mynotification6">
       <div class="container">
         This is a danger notification. You can click it away if you want.
         <button type="button" class="close" data-dismiss="message">&times;</button>
@@ -50,25 +50,25 @@
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="../dist/jquery.topbar.js"></script>
+    <script src="../dist/jquery.messagebar.js"></script>
     <script>
       $(function() {
-        $("#mynotification").topBar({
+        $("#mynotification").messageBar({
           slide: false
         });
-        $("#mynotification2").topBar({
+        $("#mynotification2").messageBar({
           slide: false
         });
-        $("#mynotification3").topBar({
+        $("#mynotification3").messageBar({
           slide: false
         });
-        $("#mynotification4").topBar({
+        $("#mynotification4").messageBar({
           slide: false
         });
-        $("#mynotification5").topBar({
+        $("#mynotification5").messageBar({
           slide: false
         });
-        $("#mynotification6").topBar({
+        $("#mynotification6").messageBar({
           slide: false
         });
       });

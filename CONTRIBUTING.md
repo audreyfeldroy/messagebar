@@ -9,6 +9,6 @@ Before sending a pull request remember to follow [jQuery Core Style Guide](http:
 5. Push to the branch: `git push origin my-new-feature`
 6. Submit a pull request :D
 
-#### Have you created a site using jQuery TopBar?
+#### Have you created a site using jQuery MessageBar?
 
-[Let us know!](https://github.com/audreyr/topbar/wiki/Sites) It’s interesting to see what uses others have come up with.
+[Let us know!](https://github.com/audreyr/messagebar/wiki/Sites) It’s interesting to see what uses others have come up with.
