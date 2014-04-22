@@ -73,7 +73,7 @@ such as StackOverflow.
 
   ```html
   {% for message in messages %}
-    <div class="messagebar messagebar-default{% if message.tags %} {{ message.tags }}{% endif %}" id="message_{{ forloop.counter }}">
+    <div class="messagebar messagebar-{% if message.tags %}{{ message.tags }}{% endif %}" id="message_{{ forloop.counter }}">
       <div class="container">
         {{ message }}
         <button type="button" class="close" data-dismiss="message">&times;</button>
@@ -93,3 +93,10 @@ message levels of:
 
 See https://docs.djangoproject.com/en/dev/ref/contrib/messages/#message-tags
 for more info.
+
+Once you've done this, your styles should look something like:
+
+  ```css
+  /* messagebar by audreyr ~ https://github.com/audreyr/messagebar */
+  /*! jquery.messagebar.min.css */.messagebar{font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;color:#000;text-shadow:.3px .3px .3px #FFF;padding:10px 0}.messagebar-default{background-color:#c4c4c4;border-bottom:1px solid #999}.messagebar-debug{background-color:#84b3dc;border-bottom:1px solid #428BCA}.messagebar-success{background-color:#a3d7a3;border-bottom:1px solid #5CB85C}.messagebar-info{background-color:#9ed9eb;border-bottom:1px solid #5BC0DE}.messagebar-warning{background-color:#f6cd93;border-bottom:1px solid #F0AD4E}.messagebar-error{background-color:#e89996;border-bottom:1px solid #D9534F}button.close{padding:0;cursor:pointer;background:rgba(0,0,0,0);border:0;-webkit-appearance:none}.close{float:right;font-size:18px;font-weight:700;line-height:.8em;color:#000;text-shadow:0 1px 0 #FFF;opacity:.2;filter:alpha(opacity=20)}
+  ```
