@@ -26,20 +26,25 @@ To run the demo locally:
 
 ## Usage
 
-1. Include jQuery:
+1. Copy the appropriate files from `dist/` into your project. For example, if you want the minified jQuery plugin version of this, copy:
+
+  * `dist/jquery.messagebar.min.css`
+  * `dist/jquery.messagebar.min.js`
+
+2. Include jQuery (any version will do):
 
   ```html
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   ```
 
-2. Include plugin's code:
+3. Include plugin's code:
 
   ```html
   <link href="dist/jquery.messagebar.min.css" rel="stylesheet">
   <script src="dist/jquery.messagebar.min.js"></script>
   ```
 
-3. Put your plugin HTML on your web page:
+4. Put your plugin HTML on your web page:
 
   ```html
   <div class="messagebar">
@@ -50,7 +55,7 @@ To run the demo locally:
   </div>
   ```
 
-4. Call the plugin:
+5. Call the plugin:
 
   ```javascript
   $(".messagebar").messageBar({
