@@ -1,6 +1,6 @@
 /*
- *  jQuery MessageBar - v0.1.0
- *  A top bar for notifications. Dismiss it by clicking the x.
+ *  jQuery MessageBar - v0.2.1
+ *  A top bar for notification messages. Dismiss it by clicking the x. Works with Django, but that's optional.
  *  http://github.com/audreyr/messagebar
  *
  *  Made by Audrey Roy
