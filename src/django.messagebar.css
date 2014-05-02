@@ -43,18 +43,6 @@
   border-bottom: 1px solid #D9534F;
 }
 
-/**
- * Close (x) button.
- */
-
-/*.close {
-  position: relative;
-  top: -2px;
-  right: -21px;
-  color: inherit;
-}
-*/
-
 button.close {
   padding: 0;
   cursor: pointer;
