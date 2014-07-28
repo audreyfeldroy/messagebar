@@ -9,28 +9,28 @@
 
     <div class="messagebar messagebar-default" id="mynotification">
       <div class="container">
-        This is a default notification. You can click it away if you want.
+        This is a default notification. You can click it away if you want. It should slide instead of instantly disappear.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
     <div class="messagebar messagebar-primary" id="mynotification2">
       <div class="container">
-        This is a primary notification. You can click it away if you want.
+        This is a primary notification. You can click it away if you want. It should slide instead of instantly disappear.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
     <div class="messagebar messagebar-success" id="mynotification3">
       <div class="container">
-        This is a success notification. You can click it away if you want.
+        This is a success notification. You can click it away if you want. It should slide instead of instantly disappear.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
 
     <div class="messagebar messagebar-info" id="mynotification4">
       <div class="container">
-        This is an info notification. You can click it away if you want.
+        This is an info notification. You can click it away if you want. It should fade out.
         <button type="button" class="close" data-dismiss="message">&times;</button>
       </div>
     </div>
@@ -50,20 +50,20 @@
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="../dist/jquery.messagebar.js"></script>
+    <script src="../src/jquery.messagebar.js"></script>
     <script>
       $(function() {
         $("#mynotification").messageBar({
-          slide: false
+          slide: true
         });
         $("#mynotification2").messageBar({
-          slide: false
+          slide: true
         });
         $("#mynotification3").messageBar({
-          slide: false
+          slide: true
         });
         $("#mynotification4").messageBar({
-          slide: false
+		  fade: true
         });
         $("#mynotification5").messageBar({
           slide: false
