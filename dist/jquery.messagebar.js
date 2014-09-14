@@ -22,7 +22,8 @@
   // Create the defaults once
   var messageBar = "messageBar",
     defaults = {
-      slide: false
+      slide: false,
+      fade: false
     };
 
   // The actual plugin constructor
@@ -46,13 +47,20 @@
       // and this.settings
       // you can add more functions like the one below and
       // call them like so: this.yourOtherFunction(this.element, this.settings).
-      console.log("xD");
+      $(this.element).data("messageBar-settings", this.settings);
       $(this.element).on("click", this.close);
     },
     close: function () {
       // Close the notification
       var $parent = $(this);
-      $parent.remove();
+      var $settings = $(this).data("messageBar-settings");
+      if ($settings.slide) {
+        $parent.slideUp();
+      } else if ($settings.fade) {
+        $parent.fadeOut();
+      } else {
+        $parent.remove();
+      }
     }
   };
 
