@@ -16,6 +16,7 @@
   // Create the defaults once
   var messageBar = "messageBar",
     defaults = {
+      autoclose: false,  // false || timeout in msec.
       slide: false,
       fade: false
     };
@@ -44,6 +45,10 @@
       var $element = $(this.element);
       $element.data("messageBar-settings", this.settings);
       $element.on("click", this.close);
+      if (this.settings.autoclose) {
+        var self = this;
+        window.setTimeout(function () { self.close.apply($element); }, this.settings.autoclose);
+      }
     },
     close: function () {
       // Close the notification
