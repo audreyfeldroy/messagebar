@@ -11,9 +11,12 @@
   // as this (slightly) quickens the resolution process and can be more efficiently
   // minified (especially when both are regularly referenced in your plugin).
 
+  "use strict";
+
   // Create the defaults once
   var messageBar = "messageBar",
     defaults = {
+      autoclose: false,  // false || timeout in msec.
       slide: false,
       fade: false
     };
@@ -39,13 +42,18 @@
       // and this.settings
       // you can add more functions like the one below and
       // call them like so: this.yourOtherFunction(this.element, this.settings).
-      $(this.element).data("messageBar-settings", this.settings);
-      $(this.element).on("click", this.close);
+      var $element = $(this.element);
+      $element.data("messageBar-settings", this.settings);
+      $element.on("click", this.close);
+      if (this.settings.autoclose) {
+        var self = this;
+        window.setTimeout(function () { self.close.apply($element); }, this.settings.autoclose);
+      }
     },
     close: function () {
       // Close the notification
       var $parent = $(this);
-      var $settings = $(this).data("messageBar-settings");
+      var $settings = $parent.data("messageBar-settings");
       if ($settings.slide) {
         $parent.slideUp();
       } else if ($settings.fade) {
